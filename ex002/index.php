@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,21 @@
     <?php 
         date_default_timezone_set("America/Sao_Paulo"); //GMT-3
         echo "Hoje é dia " . date("d/m/Y");
-        echo " e a hora atual é " . date("G:i:s")
+        echo " e a hora atual é " . date("G:i:s") . ".";
+
+        $nome = "Jean";
+        $sobrenome = "Volponi";
+        CONST PAIS = "Brasil";
+        $idade = 37;
+        $peso = 80;
+        $casado = false;
+        CONST CURSO = "TI";
+
+        echo "<br><br>Muito prazer, $nome $sobrenome! Você mora no " . PAIS . "! ". "Tenho $idade anos, peso $peso Kg.";
+
+
+
+
     ?>
 </body>
 </html>
